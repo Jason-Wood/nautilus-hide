@@ -1,0 +1,12 @@
+Name: File Manager Restart Required
+Name-pt: É Necessário Reiniciar o Gestor de Ficheiros
+Priority: Medium
+Terminal: False
+Command: nautilus -q
+ButtonText: _Restart File Manager
+ButtonText-pt: _Reiniciar Gestor de Ficheiros
+DontShowAfterReboot: True
+DisplayIf: pgrep -x nautilus -U $(id -u)
+OnlyAdminUsers: False
+Description: The file manager must be restarted in order to start the Nautilus Hide extension.
+Description-pt: O gestor de ficheiros tem de ser reiniciado para que a extensão Nautilus Hide possa ser iniciada.

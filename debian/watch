@@ -1,0 +1,2 @@
+version=3
+opts=pgpsigurlmangle=s/$/.asc/ https://bitbucket.org/brunonova/nautilus-hide/downloads /brunonova/nautilus-hide/downloads/nautilus-hide_(.*)\.tar.(?:gz|bz2|xz)

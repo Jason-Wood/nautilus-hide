@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+
+UPDATE_NOTIF_DIR=/var/lib/update-notifier/user.d
+
+case "$1" in
+	configure)
+	if [ -d $UPDATE_NOTIF_DIR ]; then
+		cp /usr/share/nautilus-hide/nautilus-hide-restart $UPDATE_NOTIF_DIR
+	fi
+	echo 'Nautilus, if running, must be restarted for this extension to work (execute "nautilus -q").'
+	;;
+esac
+
+#DEBHELPER#
+
+exit 0
