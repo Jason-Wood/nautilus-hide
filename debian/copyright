@@ -10,6 +10,11 @@ Files: debian/*
 Copyright: 2015 Bruno Nova <brunomb.nova@gmail.com>
 License: GPL-3+
 
+Files: po/fr.po
+Copyright: 2015 Bruno Nova <brunomb.nova@gmail.com>
+           2015 Okki <okki@gnomelibre.fr>
+License: GPL-3+
+
 License: GPL-3+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
