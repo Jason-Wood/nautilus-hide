@@ -1,5 +1,5 @@
-nautilus-hide (0.1.1-1) unstable; urgency=low
+nautilus-hide (0.1.2-1) unstable; urgency=low
 
   * Initial release. (Closes: #786348)
 
- -- Bruno Nova <brunomb.nova@gmail.com>  Wed, 20 May 2015 21:20:39 +0100
+ -- Bruno Nova <brunomb.nova@gmail.com>  Fri, 22 May 2015 12:31:02 +0100
