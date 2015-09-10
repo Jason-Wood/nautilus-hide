@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: Bruno Nova <brunomb.nova@gmail.com>
 Build-Depends: debhelper (>= 9), cmake (>= 2.6), gettext
 Standards-Version: 3.9.6
-Homepage: https://bitbucket.org/brunonova/nautilus-hide
-Vcs-Git: https://bitbucket.org/brunonova/nautilus-hide -b debian
-Vcs-Browser: https://bitbucket.org/brunonova/nautilus-hide/src/debian
+Homepage: https://github.com/brunonova/nautilus-hide
+Vcs-Git: https://github.com/brunonova/nautilus-hide.git -b debian
+Vcs-Browser: https://github.com/brunonova/nautilus-hide/tree/debian
 
 Package: nautilus-hide
 Architecture: all
