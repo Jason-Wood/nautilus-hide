@@ -1,2 +1,2 @@
 version=3
-opts=pgpsigurlmangle=s/$/.asc/ https://github.com/brunonova/nautilus-hide/releases /brunonova/nautilus-hide/releases/download/v.*/nautilus-hide_(.*)\.tar.xz
+opts=pgpsigurlmangle=s/$/.asc/ https://github.com/brunonova/nautilus-hide/releases /brunonova/nautilus-hide/releases/download/v.*/nautilus-hide_(.*)\.tar\.xz
