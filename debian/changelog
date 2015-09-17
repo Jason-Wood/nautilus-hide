@@ -1,3 +1,13 @@
+nautilus-hide (0.1.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * debian/control: updated Homepage and Vcs-* fields.
+  * debian/copyright: updated Source field.
+  * debian/docs: added to install AUTHORS, NEWS and README.md.
+  * debian/watch: updated the URL.
+
+ -- Bruno Nova <brunomb.nova@gmail.com>  Thu, 17 Sep 2015 21:46:34 +0100
+
 nautilus-hide (0.1.2-1) unstable; urgency=low
 
   * Initial release. (Closes: #786348)
