@@ -2,13 +2,15 @@
 /changelog
 /cmake
 /CMakeLists.txt
+/CONTRIBUTING.md
 /extension
 /generate-pot-file.sh
-/INSTALL
+/INSTALL.md
 /LICENSE
+/NEWS
 /po
 /polkit
-/README.mkd
+/README.md
 
 debian/*.log
 debian/*.debhelper
