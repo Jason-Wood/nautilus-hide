@@ -10,9 +10,10 @@ Files: debian/*
 Copyright: 2015 Bruno Nova <brunomb.nova@gmail.com>
 License: GPL-3+
 
-File: extension/nautilus-hide.py
+Files: extension/nautilus-hide.py
 Copyright: 2015 Bruno Nova <brunomb.nova@gmail.com>
            2016 Steeven Lopes <steevenlopes@outlook.com>
+License: GPL-3+
 
 Files: po/fr.po
 Copyright: 2015 Bruno Nova <brunomb.nova@gmail.com>
