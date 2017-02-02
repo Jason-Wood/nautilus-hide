@@ -2,15 +2,15 @@ Source: nautilus-hide
 Section: gnome
 Priority: optional
 Maintainer: Bruno Nova <brunomb.nova@gmail.com>
-Build-Depends: debhelper (>= 9), cmake (>= 2.6), gettext
-Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), cmake (>= 2.6), gettext, xdotool
+Standards-Version: 3.9.8
 Homepage: https://github.com/brunonova/nautilus-hide
 Vcs-Git: https://github.com/brunonova/nautilus-hide.git -b debian
 Vcs-Browser: https://github.com/brunonova/nautilus-hide/tree/debian
 
 Package: nautilus-hide
 Architecture: all
-Depends: ${misc:Depends}, nautilus, python-nautilus
+Depends: ${misc:Depends}, nautilus, python-nautilus, xdotool
 Enhances: nautilus
 Description: Extension for Nautilus to hide files without renaming them
  Nautilus Hide is a simple Python extension for the Nautilus file manager that
