@@ -1,4 +1,11 @@
-nautilus-hide (0.2.1-1) unstable; urgency=low
+nautilus-hide (0.2.1-2) UNRELEASED; urgency=low
+
+  * Remove debian/install, debian/nautilus-admin-restart, debian/postinst and  
+    debian/prerm, removing the notification to restart nautilus.
+
+ -- Bruno Nova <brunomb.nova@gmail.com>  Wed, 22 Feb 2017 20:27:46 +0000
+
+nautilus-hide (0.2.1-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * debian/copyright: added license of po/de.po.
